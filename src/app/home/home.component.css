@@ -1,0 +1,47 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://thumbs.dreamstime.com/b/old-damascus-ancient-city-syrian-arab-republic-102220982.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/28/12/19/istanbul-1547735_960_720.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/03/11/48/canal-6519196_960_720.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("https://modo3.com/thumbs/fit630x300/31753/1589229557/%D8%A8%D9%85%D8%A7%D8%B0%D8%A7_%D8%AA%D8%B4%D8%AA%D9%87%D8%B1_%D8%AC%D8%B2%D8%B1_%D8%A7%D9%84%D9%85%D8%A7%D9%84%D8%AF%D9%8A%D9%81.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

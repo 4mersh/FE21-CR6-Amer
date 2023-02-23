@@ -1,0 +1,17 @@
+<img src="https://cdn.pixabay.com/photo/2016/04/13/22/20/aircraft-1327820_960_720.jpg" class="img-fluid w-100" alt="...">
+
+<div *ngFor="let val of trips; index as index">
+
+    <div class="container mt-5">
+        <div class="row row-cols-lg-2">
+            <div>
+                <img src="{{val.img}} " class="img-thumbnail" alt="... ">
+                <h1 class="text-center ">{{val.name}}</h1>
+                <p class="fs-3 ">{{val.price}} €</p>
+                <hr>
+
+                <a routerLink="/trips/{{index}}" class="btn btn-dark mb-3 ">Details</a>
+            </div>
+        </div>
+    </div>
+</div>

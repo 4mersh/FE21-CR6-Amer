@@ -1,0 +1,20 @@
+<img src="https://cdn.pixabay.com/photo/2016/04/13/22/20/aircraft-1327820_960_720.jpg" class="img-fluid w-100" alt="...">
+
+<h1 class="title mt-5">More Info</h1>
+<hr class="mx-5">
+
+<div *ngIf="trips">
+
+    <div class="container mt-5 mb-5">
+
+        <div>
+            <img src="{{trips.img}} " class="img-thumbnail" alt="... ">
+            <h1 class="text-center ">{{trips.name}}</h1>
+            <p class="fs-3 ">{{trips.price}} €</p>
+            <hr>
+            <p class="text-center">{{trips.descriptions}}</p>
+            <input type="submit" class="btn btn-danger" value="Add To Cart" (click)="AddToCart()">
+        </div>
+    </div>
+
+</div>
